@@ -20,6 +20,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    
+    
+}
+
+- (IBAction)requestAction:(id)sender {
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
     param[@"user"] = @"7f6254b8f81f84709228d6d419d488ac";
     
@@ -31,7 +37,6 @@
         
     }];
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
