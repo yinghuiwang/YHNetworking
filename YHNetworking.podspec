@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "YHNetworking"
   s.version      = "0.0.1"
-  s.summary      = "一个对AFN网络框架的简单封装，具有网络请求过程的日志打印功能。"
+  s.summary      = "一个对AFN网络框架的简单封装"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
