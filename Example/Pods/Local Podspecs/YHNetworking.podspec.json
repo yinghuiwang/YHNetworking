@@ -1,0 +1,32 @@
+{
+  "name": "YHNetworking",
+  "version": "0.0.1",
+  "summary": "一个对AFN网络框架的简单封装，具有网络请求过程的日志打印功能。",
+  "description": "一个对AFN网络框架的简单封装，具有网络请求过程的日志打印功能",
+  "homepage": "https://github.com/yinghuiwang",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "王英辉": "iyinghui@163.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/yinghuiwang/YHNetworking.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "YHNetworking",
+    "YHNetworking/**/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
+}

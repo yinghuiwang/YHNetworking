@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'YHNetworking' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for YHNetworking
+  pod 'AFNetworking', '~> 3.1.0'
+  pod 'YHNetworking', :path => '../'
+
+  target 'YHNetworkingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'YHNetworkingUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
